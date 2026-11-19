@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Price Tag</title>
+</head>
+<body>
+
+<center>
+<h2>Nike Shoes</h2>
+<p>Best Quality Shoes</p>
+<hr>
+<h3>Rs. 2,500</h3>
+<p><s>Rs. 4,000</s></p>
+<p>50% OFF</p>
+<button>Buy Now</button>
+</center>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily News - Aaj Ki Taza Khabar</title>
+</head>
+<body>
+
+    <header>
+        <h1>DAILY NEWS</h1>
+        <p><i>Aaj ki taza khabar, sab se phele</i></p>
+        <hr>
+    </header>
+
+<nav>
+    <a href="#home">Home</a> |
+    <a href="#sports">Sports</a> |
+    <a href="#weather">Mausam</a> |
+    <a href="#contact">Contact</a> 
+</nav>
+<hr>
+
+<main id="Home">
+    <section>
+        <h2>Braking News: Karachi Me Barish Ka Imkaan</h2>
+        <p><b>Karachi: </b>Mehakma-e-Mausamiyat ne bataya hai ke <mark>Kal shaam</mark> Karachi me taz barish ka imkaan hai.</p>
+        <p>Shehriyon se guzarish hai ke ghar se <u>zaroori kaam</u> se hi neklein.</p>
+
+        <figure>
+            <img src="https://i.dawn.com/primary/2022/01/61d162cfea288.jpg" alt="Karachi barish" width="40%">
+            <figcaption>Karachi me barish ka manzar</figcaption>
+        </figure>
+
+        <blockquote>
+            "Barish Allah ki rehmat hai, Lakin ehtiyat zaroori hai" - Mehakma-e-Mausamiyat
+        </blockquote>
+
+
+        <h3>Kin ilaqon me zyada barish hogi?</h3>
+        <ul>
+            <li>Gulshan-e-Iqbal</li>
+            <li>Clifton</li>
+            <li>North Nazimabad</li>
+            <li>Malir</li>
+        </ul>
+
+        <h3>Top 3 Khabrein</h3>
+        <ol>
+            <li>Petrol ki qimaat me kami</li>
+            <li>Pakistan ne match jeet liya</li>
+            <li>Karachi me nayi bus service shuru</li>
+        </ol>
+    </section>
+
+    <section id="sports">
+        <h2>Sports News</h2>
+        <article>
+            <h3>Pakistan VS India - bara Muqabla</h3>
+            <p>Pakistan ne <strong>5 Wickets</strong> se match jeet liya. Babar Azam ne <em>shandar</em> 100 runs banaye.</p>
+            <p>Score: Pakistan <del>250</del> <ins>251/5</ins></p>
+            <p>Ye match <small>20,000 logon</small> ne stadiumme dekha.</p>
+            <p>H<sub>2</sub>0 ki bawajood khiladiyon ne accha khela. 2<sup>nd</sup> innings me maza aa gaya</p>
+        </article>
+    </section>
+
+    <section id="weather">
+        <h2>Mausam Ka Haal</h2>
+        <table border="1">
+            <caption>3 Din Ka Mausam</caption>
+            <thead>
+                <tr>
+                    <th>Din</th>
+                    <th>Temperature</th>
+                    <th>Mausam</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>32°C</td>
+                    <td>Dhoop</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>29°C</td>
+                    <td>barish</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>30°C</td>
+                    <td>badal</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Source: Mausamiyat department</td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <section>
+        <h2>Video News</h2>
+        <Video controls width="400">
+            <source src="news.mp4" type="Video/mp4">
+            Aapka browser video support nahi karta.
+        </Video>
+        <br><br>
+        <h2>Audio News</h2>
+        <audio controls>
+            <source src="news.mp3" type="audio/mpeg">
+            Aapka browser audio support nahi karta.
+        </audio>
+    </section>
+    <aside>
+        <h3>Advertisement</h3>
+        <p>Abhi IT Course me admission lein! <abbr title="information technology">IT</abbr> seekhein aur aage barhein.</p>
+    </aside>
+
+</main>
+
+<hr>
+<section id="content">
+    <h2>Humain Khabar Bhejein</h2>
+    <form>
+        <label>Apka Naam</label><br>
+        <input type="text" placeholder="Enter Your Name "><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter Your Email"><br><br>
+
+        <label>Sheher chunain</label><br>
+        <select>
+            <option>Karachi</option>
+            <option>Lahore</option>
+            <option>Islamabad</option>
+        </select><br><br>
+
+        <label>Khabar Ki Type:</label>
+        <input type="radio" name="type"> Sports
+        <input type="radio" name="type"> Mausam
+        <input type="radio" name="type"> sheher<br><br>
+
+        <input type="checkbox"> Me news parhna chahta hun<br><br>
+
+        <label>Apki Khabar:</label>
+        <textarea rows="4" cols="40" placeholder="Yahan likhein..."></textarea><br><br>
+
+        <button type="submit">Bhejein</button>
+        <button type="reset">Saaf Karein</button>
+    </form>
+</section>
+<footer>
+    <hr>
+    <p>&copy; 2026 Karachi News. All Rights Reserved.</p>
+        <address>Contact: Karachi, Pakistan | Phone: 0325-.......</address>
+        <p><a href="#home">Upar Jayein</a></p>
+</footer>
+</body>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>my first page</title>
+
+</head>
+<body>
+
+<table border="3">
+<tr>
+    <tr>
+<th>s.no</th>
+<th>Name</th>
+<th>Date</th>
+<th>amount</th>
+    </tr>
+
+<tr>
+<td>01</td>
+<td>zain</td>
+<td>2-nov-26</td>
+<td>27000</td>
+</tr>
+
+<tr>
+<td>02</td>
+<td>ayan</td>
+<td>2-nov-26</td>
+<td>27000</td>
+</tr>
+
+<tr>
+<td>03</td>
+<td>saad</td>
+<td>2-nov-26</td>
+<td>30000</td>
+</tr>
+
+<tr>
+<td>04</td>
+<td>umar</td>
+<td>2-nov-26</td>
+<td>30000</td>
+</tr>
+
+<tr>
+<td>05</td>
+<td>ahmed</td>
+<td>2-nov-26</td>
+<td>32000</td>
+</tr>
+
+<tr>
+<td>06</td>
+<td>sardar</td>
+<td>2-nov-26</td>
+<td>35000</td>
+</tr>
+
+<tr>
+<td>07</td>
+<td>huzifa</td>
+<td>2-nov-26</td>
+<td>35000</td>
+</tr>
+
+<tr>
+<td>08</td>
+<td>kareem</td>
+<td>2-nov-26</td>
+<td>38000</td>
+</tr>
+
+<tr>
+<td>09</td>
+<td>kabir</td>
+<td>2-nov-26</td>
+<td>40000</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>nisar</td>
+<td>2-nov-26</td>
+<td>40000</td>
+</tr>
+</tr>
+</table>
+
+
+
+<style>
+td { width:50px; height:50px; text-align:center; font-weight:bold; border-radius:8px; }
+.green { background:#b3f0a0; border:2px solid green; }
+.blue { background:#8fd6ff; border:2px solid #0090ff; }
+.pink { background:#ffb3f0; border:2px solid #d040d0; }
+.label { padding:5px 10px; border-radius:8px; font-weight:bold; }
+</style>
+
+<!-- Labels -->
+<span class="label" style="background-color: green;">a block</span>
+<span class="label" style="background-color:#0090ff ;">d block</span>
+<span class="label" style="background: pink;">p block</span>
+
+
+<table border="3">
+<!--row 1-->
+<tr>
+    <td class="green">Be</td>
+    <td colspan="10"></td>
+    <td class="pink">B</td><td class="pink">C</td><td class="pink">N</td><td class="pink">O</td><td class="pink">F</td>
+</tr>
+<!--row 2-->
+<tr>
+    <td class="green">Mg</td>
+    <td class="blue">Sc</td><td class="blue">Ti</td><td class="blue">V</td><td class="blue">Cr</td><td class="blue">Mn</td><td class="blue">Fe</td><td class="blue">Co</td><td class="blue">Ni</td><td class="blue">Cu</td><td class="blue">Zn</td>
+    <td class="pink">Al</td><td class="pink">Si</td><td class="pink">P</td><td class="pink">S</td><td class="pink">Cl</td>
+</tr>
+<!--row 3-->
+<tr>
+    <td class="green">Cs</td>
+    <td class="blue">Y</td><td class="blue">Zr</td><td class="blue">Nb</td><td class="blue">Mo</td><td class="blue">Tc</td><td class="blue">Ru</td><td class="blue">Rh</td><td class="blue">Pd</td><td class="blue">Ag</td><td class="blue">Cd</td>
+    <td class="pink">Ga</td><td class="pink">Ge</td><td class="pink">As</td><td class="pink">Se</td><td class="pink">Br</td>
+</tr>
+<!--row 4-->
+<tr>
+    <td class="green">Sr</td>
+    <td class="blue"></td><td class="blue">Hf</td><td class="blue">Ta</td><td class="blue">W</td><td class="blue">Re</td><td class="blue">Os</td><td class="blue">Ir</td><td class="blue">Pt</td><td class="blue">Au</td><td class="blue">Hg</td>
+    <td class="pink">In</td><td class="pink">Sn</td><td class="pink">Sb</td><td class="pink">Td</td><td class="pink">I</td>
+</tr>
+<!--row 5-->
+<tr>
+    <td class="green">Ba</td>
+    <td class="blue"></td><td class="blue">Rf</td><td class="blue">Db</td><td class="blue">Sg</td><td class="blue">Bh</td><td class="blue">Hs</td><td class="blue">Mt</td><td class="blue">Ds</td><td class="blue">Rg</td><td class="blue">Cn</td>
+    <td class="pink">Ti</td><td class="pink">Pb</td><td class="pink">Bi</td><td class="pink">Po</td><td class="pink">At</td>
+</tr>
+</table>
+
+    <h1>UUT United stated , United kingdom , Thailand</h1>
+    <h2>Pakistan</h2>
+    <h3>Canada</h3>
+    <h4>Russia</h4>
+    <h5>Iran</h5>
+    <h6>Saudi arab</h6>
+
+    <p><i>Computer software</i> is protected by copyright law and <b>international</b> <i>copyright treaties</i> as wellas other.</p>
+
+       <p>I am study in class 12<sup>th</sup></p>
+       <p>water formula is HO<sub>2</sub></p>
+
+       <p>Old price : <s><del>1300</del></s></p>
+       <p>New price : 1100</p>
+
+       <p>The Earth<br />gets one hundred tons heavier  every day<br />due to falling space dust.</p>
+<p>Venus is the only planet that rotates  clockwise.</p> <hr /> <p>Jupiter is bigger than all the other planets  combined.</p>
+
+<p><strong>Beware:</strong> Pickpockets operate in  this area.</p> <p>This toy has many small pieces and is <strong>not  suitable for children under five years old. </strong></p>
+
+<p>I <em>think</em> Ivy was the first.</p> <p>I think <em>Ivy</em> was the first.</p> <p>I think Ivy was the <em>first</em>.</p>
+
+<ol type="A">vegetables names
+    <li>potato</li>
+    <li>tomato</li>
+    <li>onion</li>
+    <li>brockley</li>
+    <li>carrot</li>
+    <ol type="i">fruit name
+<li>mango</li>
+<li>orange</li>
+<li>banana</li>
+<li>graps</li>
+<li>apple</li>
+    </ol>
+</ol>
+<ul circle>Grousery
+    <li>Cooking Oil</li>
+    <li>Biryani Rise</li>
+    <li>Milk Powder</li>
+    <li>Suger</li>
+    <li>Flour</li>
+<ul>
+<li>cologate</li>
+<li>washing powder</li>
+<li>soap</li>
+<li>bleach</li>
+<li>hand wash liquid</li>
+</ul>
+</ul>
+
+    </body>
+</html>
